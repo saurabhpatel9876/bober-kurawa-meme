@@ -1,15 +1,16 @@
 "use client"
 
 
+import Image from "next/image";
 import Link from "next/link";
-
+import bg from "@/assets/header.webp"
 
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20 bg-yellow-900 text-white">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
         {/* VirtualR build tools */}
-        Welcome to Bober Kurawan $BOBER
+        Welcome to Bober Kurwa $BOBER
         <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
           {" "}
           {/* for developers */}
@@ -21,11 +22,20 @@ const HeroSection = () => {
         intuitive development tools. Get started today and turn your imagination
         into immersive reality! */}
       </p>
-
+<span>
+  <p className="text-2xl m-3 p-2">
+    CA- 6bDbbx8ptD7WSV6b21PQcoDtPguHYptmYLs81v9rmSnD
+  </p>
+</span>
       
 
       
-   
+      <Image
+      src={bg}
+      width={500}
+      height={500}
+      alt="Picture of the author"
+    />
       
 
       <div className="flex justify-center my-10">
@@ -39,6 +49,33 @@ const HeroSection = () => {
         {/* <a href="#" className="py-3 px-4 mx-3 rounded-md border">
           Documentation
         </a> */}
+
+<div
+          href="#"
+          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
+        >
+          <Link href="https://dexscreener.com/solana/95ssdi62jzqr2wvv54mrr19ht3m8ofoc23krjy67egca">Chart</Link>
+
+        </div>
+
+        <div
+          href="#"
+          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
+        >
+          <Link href="https://t.me/+-tT9PJXsuuM2NDdi">Telegram</Link>
+
+        </div>
+
+        <div
+          href="#"
+          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
+        >
+          <Link href="https://x.com/Boberonsol69">X</Link>
+
+        </div>
+
+
+      
       </div>
       <div className="flex mt-10 justify-center">
 

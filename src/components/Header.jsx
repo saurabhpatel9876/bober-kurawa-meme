@@ -25,12 +25,12 @@ const Header = () => {
       width={200}
       height={200}
     />
-        <span className="text-xl tracking-tight">BOBER KURAWA</span>
+        <span className="text-xl tracking-tight">BOBER KURWA($BOBER)</span>
         </Link>
 
         {/* Responsive toggle button */}
         <button
-          className="lg:hidden  text-black focus:outline-none hover:bg-gray-800 hover:text-white rounded-xl p-1"
+          className=" text-2xl font-bold lg:hidden  text-black focus:outline-none hover:bg-gray-800 hover:text-white rounded-xl p-1"
           onClick={toggleNavbar}
         >
           {isOpen ? 'Close' : 'Menu'}
@@ -42,10 +42,10 @@ const Header = () => {
               Home
             </Link>
           <Link className="font-extrabold text-2xl block text-white mb-2 hover:bg-gray-600 hover:text-white rounded-xl p-1 " href="/About">
-            About Bober Kurawa
+            About Bober Kurwa
           </Link>
           <Link className="font-extrabold text-2xl block text-white mb-2 hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/BoberMore">
-            More about Bober kurawa
+            More about Bober kurwa
           </Link>
           {/* <Link className="text-black hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/">
            Services
@@ -69,10 +69,10 @@ const Header = () => {
               Home
             </Link>
             <Link  className=" block text-white mb-2 hover:bg-gray-600 hover:text-white rounded-xl p-1 font-extrabold text-2xl" href="/About">
-              About Bober kurawa
+              About Bober kurwa
             </Link>
             <Link className="block text-white mb-2 hover:bg-gray-600 hover:text-white rounded-xl p-1 font-extrabold text-2xl" href="/BoberMore">
-            More about Bober Kurawa
+            More about Bober Kurwa
             </Link>
             {/* <Link className="block text-white hover:bg-gray-600 hover:text-white rounded-xl p-1 font-extrabold text-2xl" href="/">
             Services
