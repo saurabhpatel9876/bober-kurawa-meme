@@ -1,11 +1,8 @@
 import React from 'react'
-import BoberMore from './BoberMore'
 
 const page = () => {
   return (
-    <>
-    <BoberMore/>
-    </>
+    <div>page</div>
   )
 }
 
