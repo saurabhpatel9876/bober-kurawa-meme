@@ -44,7 +44,7 @@ const Header = () => {
           <Link className="font-extrabold text-2xl block text-white mb-2 hover:bg-gray-600 hover:text-white rounded-xl p-1 " href="/About">
             About Bober Kurawa
           </Link>
-          <Link className="font-extrabold text-2xl block text-white mb-2 hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/Bober_kurawa_history">
+          <Link className="font-extrabold text-2xl block text-white mb-2 hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/BoberMore">
             More about Bober kurawa
           </Link>
           {/* <Link className="text-black hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/">
@@ -71,7 +71,7 @@ const Header = () => {
             <Link  className=" block text-white mb-2 hover:bg-gray-600 hover:text-white rounded-xl p-1 font-extrabold text-2xl" href="/About">
               About Bober kurawa
             </Link>
-            <Link className="block text-white mb-2 hover:bg-gray-600 hover:text-white rounded-xl p-1 font-extrabold text-2xl" href="/Bober_kurawa_history">
+            <Link className="block text-white mb-2 hover:bg-gray-600 hover:text-white rounded-xl p-1 font-extrabold text-2xl" href="/BoberMore">
             More about Bober Kurawa
             </Link>
             {/* <Link className="block text-white hover:bg-gray-600 hover:text-white rounded-xl p-1 font-extrabold text-2xl" href="/">
