@@ -6,7 +6,7 @@ const page = () => {
     <>
    <div className="flex-col">
    <p className="m-3 p-2 font-extrabold text-2xl">
-    "Bober Kurwa" is a meme that gained popularity in Poland, often used humorously to express frustration, surprise, or confusion. "Bober" refers to a beaver, while "kurwa" is a Polish expletive commonly used in a variety of situations. The meme became famous as it reflects everyday Polish expressions and emotions, particularly when things go wrong or are unexpected. It’s part of a trend where animals are used in humorous contexts with Polish slang, making it relatable and funny to many Poles.
+    Bober Kurwa is a meme that gained popularity in Poland, often used humorously to express frustration, surprise, or confusion. Bober refers to a beaver, while kurwa is a Polish expletive commonly used in a variety of situations. The meme became famous as it reflects everyday Polish expressions and emotions, particularly when things go wrong or are unexpected. It’s part of a trend where animals are used in humorous contexts with Polish slang, making it relatable and funny to many Poles.
     </p>
 
     <Image
